@@ -13,6 +13,8 @@ import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 
+export const newTitle = Document.title;
+
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
@@ -37,9 +39,7 @@ export const categories = [
 
 export const demoThumbnailUrl = "";
 export const demoChannelUrl = "/channel/";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
-export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+export const demoChannelTitle = "Demo channel title";
+export const demoVideoTitle = "Demo video title";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
