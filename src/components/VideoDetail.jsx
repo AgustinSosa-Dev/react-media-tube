@@ -3,6 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
 import { Videos, Loader } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
@@ -39,7 +41,7 @@ const VideoDetail = () => {
               className="react-player"
               controls
             />
-            <Typography color="#fff" variant="h5" fontWeight="bold" p={2}>
+            <Typography color="#fff" variant="h6" fontWeight="bold" p={2}>
               {title}
             </Typography>
             <Stack
@@ -57,16 +59,35 @@ const VideoDetail = () => {
                 >
                   {channelTitle}
                   <CheckCircleIcon
-                    sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
+                    sx={{ fontSize: "13px", color: "gray", ml: "5px" }}
                   />
                 </Typography>
               </Link>
               <Stack direction="row" gap="20px" alignItems="center">
                 <Typography variant="body1" sx={{ opacity: 0.7 }}>
-                  {parseInt(viewCount).toLocaleString("es-Es")} views
+                  <VisibilityIcon
+                    sx={{
+                      fontSize: "18px",
+                      color: "gray",
+                      ml: "5px",
+                      px: 1,
+                      py: 0.7,
+                      my: -1,
+                    }}
+                  />
+                  {parseInt(viewCount).toLocaleString("es-Es")}
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.7 }}>
-                  {parseInt(likeCount).toLocaleString("es-Es")} likes
+                  <ThumbUpIcon
+                    sx={{
+                      fontSize: "18px",
+                      color: "gray",
+                      ml: "5px",
+                      px: 1,
+                      my: -0.3,
+                    }}
+                  />
+                  {parseInt(likeCount).toLocaleString("es-Es")}
                 </Typography>
               </Stack>
             </Stack>

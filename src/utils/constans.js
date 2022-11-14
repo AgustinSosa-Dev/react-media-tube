@@ -38,8 +38,10 @@ export const categories = [
 ];
 
 export const demoThumbnailUrl = "";
-export const demoChannelUrl = "/channel/";
-export const demoChannelTitle = "Demo channel title";
-export const demoVideoTitle = "Demo video title";
+export const demoChannelUrl = "/channel/UCMn28O1sQGochG94HdlthbA";
+export const demoVideoUrl = "/video/I1zzgAfSUBQ";
+export const demoChannelTitle = "Fazt Code";
+export const demoVideoTitle =
+  "React y Supabase, Aplicacion completa - Auth y CRUD";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";

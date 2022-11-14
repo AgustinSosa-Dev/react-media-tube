@@ -1,13 +1,16 @@
-import { Typography } from "@mui/material";
+import { Box, CircularProgress, Stack } from "@mui/material";
 
-const Loader = () => {
-  return (
-    <div>
-      <Typography color="#fff" variant="h4" fontWeight="bold" p={2}>
-        No videos Found!
-      </Typography>
-    </div>
-  );
-};
+const Loader = () => (
+  <Box minHeight="95vh">
+    <Stack
+      direction="row"
+      justifyContent="center"
+      alignItems="center"
+      height="80vh"
+    >
+      <CircularProgress />
+    </Stack>
+  </Box>
+);
 
 export default Loader;
