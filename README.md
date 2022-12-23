@@ -8,7 +8,7 @@ Se trata, de un clon responsivo, (Adaptable a todos los dispositivos). De las fu
 
 La estructura inicial de esta aplicación se creó con el comando: **`npx create-react-app`**.
 
-# Ver una previsualización del proyecto en cuestión, en tiempo real:
+# Ver una previsualización del proyecto, en tiempo real:
 https://media-tube.netlify.app/
 
 Comenzando 🚀
