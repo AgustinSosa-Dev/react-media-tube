@@ -27,6 +27,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 
 🛠️ Construido con las siguientes dependencias: 
+  
 
 <ul>
     <li>react</li>
