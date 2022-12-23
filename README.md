@@ -4,7 +4,7 @@
 
 Esta es una aplicación, desarrollada con React.
 
-Se trata, de un clon responsivo, (Adaptable a todos los dispositivos). De las funcionalidades mas escenciales de YouTube.
+Se trata, de un clon responsivo, (Adaptable a todos los dispositivos). De las funcionalidades más esenciales de YouTube.
 
 La estructura inicial de esta aplicación se creó con el comando:
 
