@@ -25,6 +25,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 <h2>De esta forma, el proyecto será desplegado de manera local.</h2> 
 [http://localhost:3000](http://localhost:3000) 
 
+ <br/>
 
 🛠️ Construido con las siguientes dependencias: 
   
